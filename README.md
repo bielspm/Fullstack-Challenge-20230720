@@ -22,3 +22,19 @@ Criar um script que receba uma lista de planos de celular e filtre esse lista us
 
 
 *This is a challenge by Coodesh*
+
+
+
+# Documentação do processo:
+
+- A primeira coisa que eu pensei foi em como encaixar os filtros sem precisar escrever muito código. Fui rever os metodos de array pra ver se algum poderia ajudar, lembrei do filter. Havia outros metodos mas não queria perder muito tempo  pensando  em como encaixa-los no código, então resolver fazer da forma mais pratica.
+
+- Também tive que lembrar do pacote que lia arquivos.
+
+- No momento de ordenar planos por data, pensei em usar o pacote 'moment' para facilitar o uso de objetos Date, mas lembrei que não podia usar tais pacotes, então fiz na forma 'raiz'.
+
+- Precisava de uma forma de comparar datas sem fazer um código muito feio, então lembrei de uma que já vi em java.
+
+- Comparar os planos não foi difícil, já fiz muito isso estudando estruturas de dados. Só precisei me certificar que o fluxo estava correto.
+
+- Também precisei tratar arrays esparsos que foram criados conforme o filtro excluía planos fora do requerido. Não pensei que isso fosse acontecer, não imaginava que 'delete' excluiria indices do array.
